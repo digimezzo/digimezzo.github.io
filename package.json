@@ -1,10 +1,10 @@
 {
-  "name": "site",
+  "name": "digimezzo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path docs --base-href /site/ && cp ./docs/index.html ./docs/404.html",
+    "build": "ng build --output-path docs --base-href / && cp ./docs/index.html ./docs/404.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -34,6 +34,7 @@
     "@angular/compiler-cli": "^16.2.12",
     "@angular/localize": "^16.2.12",
     "@types/jasmine": "~4.0.0",
+    "@types/node": "18.19.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
